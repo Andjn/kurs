@@ -1,0 +1,64 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+    margin:0;
+   
+	
+
+}
+.container {
+	max-width:1200px;
+	width:100%;
+    margin: 0 auto;
+}
+.pozadina{
+	width:1200px;
+	height:900px;
+	background-image: url(../img/drvece.jpg);
+	background-size:cover;
+	background-position:center;
+	position:relative;
+	
+}
+.desno{
+	float:right;
+	width:500px;
+	height:900px;
+	
+}
+.prvi{
+	background-color:#d6410e;
+font-family: 'EB Garamond', serif;
+	height:300px;
+	font-size:70px;
+	color:#fff;
+	font-weight:bold;
+	text-align:right;
+	padding: 15px 35px 0px 20px;
+}
+.nulti{
+	height:100px;
+	background-color:rgba(225,225,225,0.3);
+}
+.drugi{
+	height:500px;
+	background-color:rgba(225,225,225,0.3);
+	font-family: 'Quicksand', sans-serif;
+	color:#d6410e;
+	font-size:60px;
+	padding: 100px 80px 18px 60px;
+}
+.kocka{
+	width:300px;
+	height:300px;
+	position:absolute;
+	left:0px;
+	bottom:20px;
+	background-color:#d6410e;
+	font-size:200px;
+	color:#fff;
+	font-weight:bold;
+	padding: 32px 74px 50px 37px;
+}

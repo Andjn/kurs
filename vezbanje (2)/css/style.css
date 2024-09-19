@@ -1,0 +1,131 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	margin:0;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+
+.container {
+	max-width:1200px;
+	width:100%;
+	margin: 0 auto;
+	
+}
+p{
+    color:gray;
+    
+}
+.pading{
+    padding-left:200px;
+    padding-right:200px;
+}
+.glavni{
+    color:#06144c;
+    text-align: center;
+
+}
+p.gl:after{
+    
+    content:"";
+    position:absolute;
+    background-color:#f81c47;
+    width: 40px;
+    height: 3px;
+    top: 103px;
+    left: 49%;
+}
+.gl{
+    text-align: center;
+}
+.italik{
+    font-style: italic;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.elipsa{
+    width:30%;
+    height:50px;
+    border-radius: 50px;;
+    background-color: #06144c;
+    color:#fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.boja{
+    background-color: #f81c47;
+}
+.day{
+    display:flex;
+    justify-content: space-between;
+}
+.veliki{
+    display:flex;
+    
+}
+.vreme{
+    
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.registration{
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size: 20px;
+}
+
+.reg{
+    margin-top:5px;
+    margin-bottom:5px;
+    font-style: italic;
+}
+.tekst{
+    margin-left:20px;
+}
+.slika{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 0;
+    width:50px;
+    height:50px;
+    background-color: #f81c47;
+    border-radius: 50%;
+}
+span{
+    font-style:italic;
+    font-size:20px;
+    color:gray;
+    font-weight: 100;
+}
+.razmak{
+    width:100%;
+    height:3px;
+    background-color: #e8ecfb;
+}
+.prva{
+    background-image: url(../img/prva.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.druga{
+    background-image: url(../img/druga.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.treca{
+    background-image: url(../img/treca.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.cetvrta{
+    background-image: url(../img/cetvrta.jpg);
+    background-position: center;
+    background-size: cover;
+}

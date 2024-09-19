@@ -1,0 +1,89 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+	max-width:1200px;
+	width:100%;
+    margin: 0 auto;
+}
+.kartica{
+	width:230px;
+	height:450px;
+	
+	position:relative;
+	
+}
+.naslov{
+	position:relative;
+	width:100%;
+	height:50px;
+	
+}
+.najkup{
+	width:60px;
+	height:40px;
+	background-image: url(../img/najkup.png);
+	background-size:cover;
+	position:absolute;
+	right:10px;
+	top:5px;
+}
+h1{
+	color: #009344;
+	font-size: 13px;
+    font-weight: 400;
+	padding:5px;
+    
+
+}
+p{
+	font-size: 13px;
+    line-height: 16px;
+    overflow: hidden;
+	padding:5px;
+   
+}
+.slika{
+	width:200px;
+	height:200px;
+	background-image: url(../img/frizider.jpg);
+	background-size:cover;
+	margin:15px;
+	
+}
+.cena1{
+	 font-size: 13px;
+    text-decoration: line-through;
+	color: #333;
+	
+}
+.cena2{
+	font-size: 22px;
+    color: #009344;
+    font-weight: bold;
+    
+}
+.usteda{
+	    color: #222;
+    font-size: 12px;
+}
+.dugme{
+	width:80px;
+	height:40px;
+	background-color:#d6de23;
+	text-align:center;
+	float:right;
+	padding-right:5px;
+}
+.desno{
+text-align: right;
+padding-right:5px;
+}
+

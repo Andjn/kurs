@@ -1,0 +1,104 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	max-width:1200px;
+	width:100%;
+    margin: 0 auto;
+}
+.fl{
+    display: flex;
+    padding-left:100px;
+    padding-right:100px;
+}
+.left{
+    width: 50%;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/zgr.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.right{
+    width: 50%;
+    height:600px;
+    padding-left:100px;
+}
+.kvadrat{
+ width:200px;
+ height:200px;
+ background-color: white;
+ 
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+h2{
+    font-size: 20px;
+    color:gray
+}
+.desni{
+    font-size: 40px;
+    position: relative;
+}
+h1.desni:after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: grey;
+    position: absolute;
+   
+    bottom: -10px;
+    left: 0px;
+}
+.naslov{
+    font-size:70px;
+    margin-bottom:0px;
+    font-weight:600;
+    margin-top:0px;
+}
+.years{
+    margin-top:0px;
+    color:gray;
+}
+.lorem{
+    color:gray;
+    line-height: 30px;;
+}
+.zeleni{
+    color:gray;
+    position: relative;
+    padding-left:40px;
+    
+}
+p.zeleni:before{
+    content:"";
+    position: absolute;
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    left:0px;
+    top:0px;
+    background-color: lightgreen;
+
+
+}
+a{
+    text-decoration: none;
+    color:grey;
+    padding:15px 50px;
+    border:1px solid grey;
+   
+}
+p:nth-child(5){
+    margin-bottom:100px;
+}

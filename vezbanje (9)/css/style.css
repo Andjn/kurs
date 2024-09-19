@@ -1,0 +1,123 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	margin:0;
+	
+	
+}
+.conatiner-fluid{
+    width:100%
+}
+.sirina{
+    height:100px;
+}
+.container {
+	max-width:1200px;
+	width:100%;
+	margin: 0 auto;
+	
+}
+.prvi{
+    width:50%;
+    height:700px;
+    
+}
+.drugi{
+        width:50%;
+    height:700px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding:50px 55px 0px 0px;
+    
+    
+    }
+.fl{
+    display:flex;
+    flex-wrap: wrap;
+    box-shadow:1px 1px 11px 1px gray;
+}
+.slika{
+    width:25%;
+    height:150px;
+    background-image:url(../img/slika.jpeg);
+    background-size:cover;
+    background-position:center;
+    margin:50px 50px 0px 50px;
+}
+.tekst{
+    margin:50px 50px 0px 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:grey;
+}
+.bol{
+    font-weight:bold;
+    color:black;
+    
+}
+.paragrafi{
+    line-height:25px;
+    color:grey;
+    
+   
+}
+.sto{
+    width:100%;
+    height:15px;
+    background-color:cornflowerblue;
+    margin-bottom:20px;
+
+    
+}
+.osamdeset{
+    width:85%;
+    height:15px;
+    background-color:blue ;
+}
+.sedamdeset{
+    width:75%;
+    height:15px;
+    background-color:blue
+}
+.pedeset{
+    width:50%;
+    height:15px;
+    background-color:blue
+}
+.devedeset{
+    width:90%;
+    height:15px;
+    background-color:blue
+}
+.elementi{
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+.procenti{
+    margin-left:50px;
+    margin-right:50px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.naslovi{
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    color:grey;
+
+}
+h1{
+    color:black;
+    position:relative;
+}
+h1:after{
+    content:"";
+    position:absolute;
+    background-color: cornflowerblue;
+    width:80px;
+    height:3px;
+    bottom: -10px;
+    left: 0px;
+}
+

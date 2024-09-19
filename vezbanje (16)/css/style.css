@@ -1,0 +1,89 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container{
+    max-width: 1200px;
+    width:100%;
+    margin:0 auto;
+}
+.parent{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.picture{
+    background-image: url(../img/practice4.jpg);
+    background-size: cover;
+    background-position: center;
+    width:48%;
+    height:100vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+    flex-wrap: wrap;
+    width:50%;
+   
+}
+.forma{
+    width:48%;
+    margin-left:100px;
+    
+}
+.prva{
+    width:400px;
+    margin-bottom:30px;
+    padding-left: 20px;
+    height:40px;
+}
+.druga{
+    width:400px;
+    margin-bottom:30px;
+    height:40px;
+    padding-left: 20px;
+}
+.treca{
+    width:400px;
+    margin-bottom:30px;
+    height:100px;
+    padding-left: 20px;
+    padding-bottom: 55px;
+}
+.black{
+    background-color: #000;
+    width:60px;
+    height:2px;
+    margin-top:20px;
+    margin-bottom:50px;
+}
+h1{
+    font-size:30px;
+    font-weight: 600;
+    margin-top:20px;
+}
+h2{
+    margin-top:30px;
+    color:#a9a9a9;
+    font-size: 10px;
+    letter-spacing: 2px;
+    
+}
+.button{
+    color:#382424;
+    border:1px solid #382424;
+    width:120px;
+    height:40px;
+    text-align:center;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size:12px;
+}
+

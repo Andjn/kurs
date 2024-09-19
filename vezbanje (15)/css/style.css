@@ -1,0 +1,78 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Kulim Park', sans-serif;
+
+}
+.container{
+    max-width: 1200px;
+    width:100%;
+    margin:0 auto;
+}
+h2{
+    color:#c9c9c9;
+    font-size:15px;
+    letter-spacing:2px;
+    text-align: center;
+    margin-top: 20px;
+}
+h1{
+    font-size:30px;
+    letter-spacing:2px;
+    text-align: center;
+    
+}
+
+.parent{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.child{
+    width:30%;
+    
+    display: flex;
+    justify-content:center;
+	align-items:center;
+    flex-direction:column;
+    text-align: center;
+}
+.slika{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    
+    margin-top:30px;
+  
+}
+p{
+    color:#c9c9c9;
+    line-height: 1.8;
+    padding:0px 20px;
+    margin-top: 5px;
+    
+    
+}
+.child h1{
+    margin-bottom:10px;
+    
+}
+.prva{
+    background-image: url(../img/interior.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.druga{
+    background-image: url(../img/exterior.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.treca{
+    background-image: url(../img/bridge.jpg);
+    background-size: cover;
+    background-position: center;
+}

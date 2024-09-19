@@ -1,0 +1,89 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+	max-width:1200px;
+	width:100%;
+    margin: 0 auto;
+}
+.container-fluid {
+	
+	width:100%;
+    
+}
+.big{
+	width:100%;
+	height:400px;
+	background-image: url(../img/grad.jpg);
+	background-size:cover;
+	background-position:center;
+	color:#fff;
+}
+.mali{
+	width:23%;
+	height:300px;
+	
+	float:left;
+	margin-right:5px;
+}
+.mr{
+	margin-right:0px;
+}
+
+.dugme{
+	border:2px solid #fff;
+	margin-right:85%;
+	font-size:15px;
+	text-align:center;
+}
+h1{
+	
+	font-size:18px;
+	padding-top:20px;
+	margin-bottom:5px;
+	margin-top:0px;
+}
+p{
+	margin-right:75%;
+}
+.prvi{
+	background-image: url(../img/nebo.jpg);
+	background-size:cover;
+	background-position:center;
+	position:relative;
+}
+.drugi{
+	background-image: url(../img/ruka.jpg);
+	background-size:cover;
+	background-position:center;
+	position:relative;
+}
+.treci{
+	background-image: url(../img/mesec.jpg);
+	background-size:cover;
+	background-position:center;
+	position:relative;
+}
+.cetvrti{
+	background-image: url(../img/couple.jpg);
+	background-size:cover;
+	background-position:center;
+	position:relative;
+}
+.vreme{
+	width:50px;
+	height:20px;
+	background-color:rgba(0,0,0,0.5);
+	
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	color:#fff;
+}

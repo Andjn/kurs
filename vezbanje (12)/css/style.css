@@ -1,0 +1,73 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    background-color:#4c4c4c;
+
+}
+.container{
+    max-width: 1200px;
+    width:100%;
+    margin:0 auto;
+}
+.parent{
+    
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+}
+.text{
+    
+    width:48%;
+}
+.green{
+    background-color: #82d026;
+    width:60px;
+    height:10px;
+    position: absolute;
+    top:60px;
+}
+
+
+p{
+    color:#7b7b7b;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.8;
+    word-spacing: 10px;
+}
+
+h1{
+    color:#081624;
+    font-size:50px;
+    font-weight:700px;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top:100px;
+}
+a{
+    background-color: #82d026;
+    color:#fff;
+    width:200px;
+    height:60px;
+    text-align:center;
+    display: flex;
+    justify-content:center;
+	align-items:center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:18px;
+    font-weight: bold;
+    text-decoration:none;
+    letter-spacing: 0px;
+    
+}
+.picture{
+    background-image: url(../img/practice1.png);
+    background-size: cover;
+    width: 43%;
+    height:100vh;
+    background-position: center;
+    position:absolute;
+    right:0px;
+    top:30px;
+}

@@ -1,0 +1,140 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+	max-width:1200px;
+	width:100%;
+    margin: 0 auto;
+}
+.container-fluid{
+    width:100%;
+    
+}
+.black{
+    background-color: black;
+    color:grey;
+    
+
+}
+.zuti{
+    padding-left:20px;
+}
+.linkovi{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.crno{
+    color:black;
+}
+.yellow{
+    height:100px;
+    background-color: #ffb700;
+    display:flex;
+    columns: #000000;;
+    justify-content: space-between;
+    align-items: center;
+}
+.ikona{
+    display:flex;
+}
+.slika{
+    width:40px;
+    height:40px;
+    background-image: url(../img/bag.png);
+    background-position: center;
+    background-size: cover;
+    margin-top:35px;
+}
+p{
+    line-height: 30px;
+}
+h1.zuti:before{
+    content:"";
+    position:absolute;
+    background-color:#ffb700;
+    width: 4px;
+    height: 20px;
+    top: 17px;
+    left: 0%;
+}
+
+
+.naslov{
+    font-size:40px;
+}
+h1{
+    color: #fff;
+    font-size: 20px;
+}
+p{
+    color:gray;
+}
+.raspored{
+    display:flex;
+    justify-content: space-between;
+   
+}
+.prvi {
+    width:30%;
+    height:400px;
+    position: relative;
+}
+.drugi{
+    width:30%;
+    height:400px;
+    position: relative;
+}
+.treci{
+    width:30%;
+    height:400px;
+    position: relative;
+}
+.vreme{
+    display: flex;
+    justify-content: space-between;
+    height:25px;
+}
+.slika1{
+    width:20px;
+    height:20px;
+    background-image: url(../img/ff.png);
+    background-size: cover;
+    background-position: center;
+}
+.slika2{
+    width:20px;
+    height:20px;
+    background-image: url(../img/tvv.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.slika3{
+    width:20px;
+    height:20px;
+    background-image: url(../img/insta.png);
+    background-size: cover;
+    background-position: center;
+}
+.slika4{
+    width:20px;
+    height:20px;
+    background-image: url(../img/slusalice.png);
+    background-size: cover;
+    background-position: center;
+}
+.ikone{
+    width:100px;
+    display:flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    padding:20px;
+}

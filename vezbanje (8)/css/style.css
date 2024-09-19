@@ -1,0 +1,129 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+	max-width:1200px;
+	width:100%;
+    margin: 0 auto;
+}
+.sadrzaj{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height:600px;
+}
+.prvi {
+    width:33%;
+    height:600px;
+    
+
+    
+
+}
+.radnik {
+    width:33%;
+    height:650px;
+    background-image: url(../img/man.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+.drugi{
+    
+        width:33%;
+        height:600px;
+        
+    
+}
+.slika{
+    width: 30%;
+    height:100px;
+    background-image:url(../img/building.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.tekst{
+    width:60%;
+    height:200px;
+}
+.raspored{
+    display:flex;
+    justify-content: space-between;
+}
+.home{
+    font-size:18px;
+   
+}
+p{
+    font-size:15px;
+    color:gray;
+}
+.glavni{
+    text-align: center;
+    margin-top:-10px;
+    font-weight: bolder;
+}
+.naslov{
+    text-align:center;
+}
+.nevidljiv{
+    display:none;
+}
+.nevidljiv2{
+    display:none;
+}
+
+
+
+@media (max-width:1024px) {
+
+  .sadrzaj{
+      
+      flex-direction:row;
+      padding:100px;
+      
+     
+  }
+  .prvi{
+      width:100%;
+
+  }
+  .drugi{
+      width:100%;
+  }
+  .radnik{
+      width:100%;
+      background-position: center;
+      height:500px;
+  }
+  .tekst{
+      width:80%;
+  }
+  .slika{
+      width:10%;
+      height:100px;
+  }
+ 
+  .naslov{
+      display: none;
+  }
+  .glavni{
+    display: none;
+}
+  .nevidljiv{
+      display: flex;
+      justify-content: center;
+  }
+  .nevidljiv2{
+    display: flex;
+    justify-content: center;
+}
+}
